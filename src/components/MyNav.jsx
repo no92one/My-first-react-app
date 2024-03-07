@@ -1,6 +1,11 @@
+import { useContext } from "react"
 import { Link } from "react-router-dom"
+import { GlobalContext } from "../GlobalContext.jsx"
 
 export default function MyNav() {
+  const { number } = useContext(GlobalContext)
+
+
   return <>
     <nav>
       |&nbsp;
@@ -11,6 +16,8 @@ export default function MyNav() {
       <Link to={"/products"}>Produkt lista</Link> |&nbsp;
       <Link to={"/useContext1"}>Context 1</Link> |&nbsp;
       <Link to={"/useContext2"}>Context 2</Link> |&nbsp;
+      <Link to={"/getData"}>Hämta data</Link> |&nbsp;
+      <Link to={"/"}>Antal noticer - {number}</Link> |&nbsp;
     </nav>
   </>
 } 

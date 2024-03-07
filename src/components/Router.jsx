@@ -7,6 +7,7 @@ import MyUseState2 from "../pages/MyUseState2.jsx";
 import Products from "../pages/Products.jsx";
 import UseContext1 from "../pages/UseContext1.jsx";
 import UseContext2 from "../pages/UseContext2.jsx";
+import GetData from "../pages/GetData.jsx";
 
 
 export default function Router() {
@@ -21,6 +22,7 @@ export default function Router() {
           <Route path="/products" element={<Products />} />
           <Route path="/useContext1" element={<UseContext1 />} />
           <Route path="/useContext2" element={<UseContext2 />} />
+          <Route path="/getData" element={<GetData />} />
         </Routes>
       </BrowserRouter>
     </>

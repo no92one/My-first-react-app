@@ -4,7 +4,7 @@ const GlobalContext = createContext()
 
 function GlobalProvider({children}) {
 
-  const [number, setNumber] = useState(88)
+  const [number, setNumber] = useState(0)
 
   return <GlobalContext.Provider
     value={{
