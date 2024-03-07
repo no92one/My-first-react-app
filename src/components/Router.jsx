@@ -5,6 +5,8 @@ import MyNav from "./MyNav.jsx";
 import MyUseState from "../pages/MyUseState.jsx";
 import MyUseState2 from "../pages/MyUseState2.jsx";
 import Products from "../pages/Products.jsx";
+import UseContext1 from "../pages/UseContext1.jsx";
+import UseContext2 from "../pages/UseContext2.jsx";
 
 
 export default function Router() {
@@ -17,6 +19,8 @@ export default function Router() {
           <Route path="/myUseState" element={<MyUseState />} />
           <Route path="/myUseState2" element={<MyUseState2 />} />
           <Route path="/products" element={<Products />} />
+          <Route path="/useContext1" element={<UseContext1 />} />
+          <Route path="/useContext2" element={<UseContext2 />} />
         </Routes>
       </BrowserRouter>
     </>
