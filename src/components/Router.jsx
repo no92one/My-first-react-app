@@ -9,6 +9,7 @@ import UseContext1 from "../pages/UseContext1.jsx";
 import UseContext2 from "../pages/UseContext2.jsx";
 import GetData from "../pages/GetData.jsx";
 import MyJsonServer from "../pages/MyJsonServer.jsx";
+import CssNesting from "../pages/CssNesting.jsx";
 
 
 export default function Router() {
@@ -25,6 +26,7 @@ export default function Router() {
           <Route path="/useContext2" element={<UseContext2 />} />
           <Route path="/getData" element={<GetData />} />
           <Route path="/myJsonServer" element={<MyJsonServer />} />
+          <Route path="/cssNesting" element={<CssNesting />} />
         </Routes>
       </BrowserRouter>
     </>

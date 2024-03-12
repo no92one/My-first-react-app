@@ -1,0 +1,27 @@
+:root {
+  --main-bg-color: green;
+  --small-text: 15px;
+  --medium-text: 25px;
+  --large-text: 50px;
+  --XL-text: 2000px;
+}
+
+h1 {
+  color: var(--main-bg-color);
+}
+
+.parent {
+  width: 50vW;
+  height: 50vh;
+  background-color: black;
+
+  div {
+    width: 25vW;
+    height: 25vh;
+    background-color: pink;
+
+    p {
+      color: var(--main-bg-color);
+    }
+  }
+}

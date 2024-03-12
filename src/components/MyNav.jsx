@@ -19,6 +19,7 @@ export default function MyNav() {
       <Link to={"/getData"}>Hämta data</Link> |&nbsp;
       <Link to={"/myJsonServer"}>Json-server data</Link> |&nbsp;
       <Link to={"/"}>Antal noticer - {number}</Link> |&nbsp;
+      <Link to={"/cssNesting"}>Css Nesting</Link> |&nbsp;
     </nav>
   </>
 } 
