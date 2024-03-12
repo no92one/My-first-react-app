@@ -5,9 +5,9 @@ export default function GetData() {
   // const [x, setX] = useState(0) 
 
   useEffect(() => {
-    fetch("/data.json")
+    fetch("api/numbers")
     .then(res => res.json())
-    .then(result => setNumbersList(result.numbers))
+    .then(result => setNumbersList(result))
   }, [])
 
   // function changeX() {
@@ -18,7 +18,7 @@ export default function GetData() {
   return <>
     <h1>Get data</h1>
     {numbersList ? 
-      numbersList.map((number, index) => <p><strong>{index}.</strong> {number}</p>) 
+      numbersList.map((item, index) => <p key={item.id}><strong>{index}.</strong> {item.number}</p>) 
       : <h3>Loading data...</h3>
     }
     {/* <button onClick={changeX}>Change X = {x}</button> */}

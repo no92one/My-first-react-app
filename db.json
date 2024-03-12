@@ -1,0 +1,58 @@
+{
+  "dummyObject": {
+    "text": "Någon text"
+  },
+  "dummyArrays": [
+    {
+      "id": 1,
+      "text": "Hej"
+    },
+    {
+      "id": 2,
+      "text": "Hej igen"
+    }
+  ],
+  "numbers": [
+    {
+      "id": 1,
+      "number": 1
+    },
+    {
+      "id": 2,
+      "number": 5
+    },
+    {
+      "id": 3,
+      "number": 6
+    },
+    {
+      "id": 4,
+      "number": 80
+    },
+    {
+      "id": 5,
+      "number": 6000
+    }
+  ],
+  "textData": [
+    {
+      "text": "Hej",
+      "id": 1
+    },
+    {
+      "text": "Hej igen",
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "text": "Kalle anka",
+      "id": 4
+    },
+    {
+      "text": "Anna anka",
+      "id": 5
+    }
+  ]
+}

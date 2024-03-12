@@ -17,6 +17,7 @@ export default function MyNav() {
       <Link to={"/useContext1"}>Context 1</Link> |&nbsp;
       <Link to={"/useContext2"}>Context 2</Link> |&nbsp;
       <Link to={"/getData"}>Hämta data</Link> |&nbsp;
+      <Link to={"/myJsonServer"}>Json-server data</Link> |&nbsp;
       <Link to={"/"}>Antal noticer - {number}</Link> |&nbsp;
     </nav>
   </>
